@@ -1,0 +1,94 @@
+/* ========================================================= Forms ===*/
+form{
+
+}
+form ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+form li{
+    display: inline-block;
+    margin: 0 0 10px;
+    padding: 0;
+}
+form p{
+
+}
+form label{
+    
+}
+form input[type=text], form input[type=email]{
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+    width: 100%;
+}
+form textarea{
+    background-color: #fff;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+    width: 100%;
+}
+.select-styled{
+  background: url(asset_path('contact/select-down-arrow.png')) no-repeat right #fff;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  max-height: 48px;
+  float: left;
+  margin: 0 10px 0 0;
+  overflow: hidden;
+  width: 100%;
+}
+.select-styled select{
+  -webkit-appearance:none;
+  -moz-appearance:none;
+  appearance:none;
+  background: transparent;
+  border: none;
+  border-radius: 3px;
+  cursor:pointer;
+  display: inline-block;
+  font-style: normal;
+  font-size: 100%;
+  font-weight: 400;
+  line-height: 1;
+  max-height: 40px;
+  margin: 0;
+  outline: none;
+  padding: 12px 5px;
+  width: 107%;
+}
+.select-styled select:focus{
+  outline: 0;
+}
+.select-styled  option {
+  font-size: 100%;
+  font-weight: 400;
+  padding: 5px;
+}
+
+form input[type=submit]{
+    margin: 20px 0 0;
+}
+/* -------------
+-- Placeholders --
+------------- */
+::-webkit-input-placeholder {
+   color: #555;
+}
+:-moz-placeholder {
+   color: #555;  
+}
+::-moz-placeholder {
+   color: #555;  
+}
+:-ms-input-placeholder {  
+   color: #555;  
+}

@@ -1,0 +1,22 @@
+name: "Theron Industries"
+permalink: pretty
+author: Theron Industries
+email: hello@theronind.com
+url: http://theronind.com
+
+exclude: ["CNAME","editorconfig.txt","Gemfile","Gemfile.lock","README.md", "RAKEFILE"]
+
+assets:
+  dirname: assets
+  baseurl: /assets/
+  sources:
+    - _assets/fonts
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+  js_compressor: uglifier
+  css_compressor: sass
+
+navigation:
+- text: Hire us
+  url: /contact/

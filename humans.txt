@@ -1,0 +1,24 @@
+/* TEAM */
+	
+	Designer: Kennedy
+	Twitter: @
+
+	Developer: Rich
+	Twitter: @
+
+	Business: Brian Revak
+	Twitter: @
+
+/* THANKS */
+
+	Animations
+	http://daneden.github.io/animate.css/
+
+	Type scale2:
+	http://type-scale.com/?size=20&scale=1.414&text=A%20Visual%20Type%20Scale&webfont=Libre%2BBaskerville&font-family=%27Libre%20Baskerville%27,%20serif&font-weight=400&font-family-headers=&font-weight-headers=inherit&background-color=white&font-color=%23333
+
+/* SITE */
+
+	Last update: 2014/05/04
+	Doctype:HTML5
+	IDE: Sublime Text, FileZilla, Photoshop, Sketch

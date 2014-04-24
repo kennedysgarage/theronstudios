@@ -1,0 +1,58 @@
+#work{
+
+}
+#work h3{
+  margin-top: 0;
+}
+/* ========================================================= Work ===*/
+.work-gradespotter{
+  background: #181c21 url(asset_path('work/gradespotter/hero.jpg')) center center no-repeat;
+  height: 540px;
+}
+.work-galore{
+  background: #181c21 url(asset_path('work/galore/hero.jpg')) center center no-repeat;
+  height: 540px;
+}
+.work-statuschart{
+  background: #181c21 url(asset_path('work/statuschart/hero.jpg')) center center no-repeat;
+  height: 540px;
+}
+.work{
+/*  background-color: rgba(42,49,59,0.6);
+  position: relative;
+  min-height: 540px;
+  color: #fff;
+  float: left;
+  -webkit-transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+  -moz-transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+  -ms-transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+  -o-transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+  transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+  width: 100%;*/
+}
+.work:hover{
+  /*background-color: rgba(42,49,59,0.9);*/
+}
+.work .content{
+/*  margin: 30% auto 0;
+  max-width: 800px;
+  padding: 0 1em;*/
+}
+.work h2{
+  color: #fff;
+  /*margin: 14% 0 0;*/
+  text-align: center;
+}
+.work p{
+  color: #ccc;
+  font-size: 1em;
+  text-align: center;
+}
+.work .btn{
+  margin: 0 auto;
+}
+/* ========================================================= Grade Spotter ===*/
+
+/* ========================================================= Galore ===*/
+
+/* ========================================================= Status Chart ===*/
