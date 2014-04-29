@@ -279,8 +279,9 @@ footer{
     margin: 5px 0 0;
 }
 .cta .btn{
-    float: right;
-    margin: 0;
+    display: block;
+    margin: 10px auto 0;
+    text-align: center;
 }
 /*.cta-wrap{
     background-color: $grey;
@@ -365,6 +366,11 @@ footer{
     .select-styled select{
         padding: 12px 5px;
         max-height: 41px;
+    }
+    .cta .btn{
+        display: inline-block;
+        float: right;
+        margin: 0;
     }
     .copy{
         display: inline-block;
