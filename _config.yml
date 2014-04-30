@@ -1,8 +1,8 @@
-name: "Theron Industries"
+name: "Theron Studios"
 permalink: pretty
-author: Theron Industries
-email: hello@theronind.com
-url: http://theronind.com
+author: Theron Studios
+email: hello@theronstudios.com
+url: http://theronstudios.com
 
 exclude: ["CNAME","editorconfig.txt","Gemfile","Gemfile.lock","README.md", "RAKEFILE"]
 
