@@ -6,6 +6,7 @@
 @import "ss-social-circle.css.scss";
 @import "ss-social-regular.css.scss";
 @import "typography.css.scss";
+@import "grid.css.scss";
 @import "forms.css.scss";
 @import "utilities.css.scss";
 @import "work.css.scss";
@@ -32,25 +33,23 @@ html, body{
 .wrapper{
   margin: 90px 0 0;
 }
-.container {
-  margin: 0 auto;
-  max-width: 1240px;
-  padding: 0 20px;
-}
+
 section{
     background-color: #fff;
     border-radius: 2px;
     margin: 0 0 5%;
 }
 .content{
-    padding: 5%;
+    padding: 2em 2em 0.5em;
+    padding: 1em 2em;
+    padding: 2em;
 }
-.row{
-    padding: 1rem 0;
-}
-.column {
-    width: 100%;
-}
+// .row{
+//     padding: 1rem 0;
+// }
+// .column {
+//     width: 100%;
+// }
 .hero{
   img{
     border-radius: 2px 2px 0 0;
@@ -58,9 +57,9 @@ section{
 }
 .welcome{
   border-radius: 0 0 2px 2px;
-  .row{
-    padding-top: 2em;
-  }
+  // .row{
+  //   padding-top: 2em;
+  // }
 }
 /* ========================================================= Landing Temp ===*/
 #landing-logo{
@@ -113,6 +112,7 @@ header{
     top: 0;
     right: 0;
     left: 0;
+    z-index: 1941;
 }
 header h1{
     display: inline;
@@ -144,10 +144,16 @@ nav{
       float: left;
       margin: 0;
       padding: 0;
+      &.current a{
+        color: #fff;
+      }
       a{
-        color: #eee;
+        color: #a7abb1;
         display: block;
         padding: 10px 21px 8px;
+        &:hover{
+          color: #fff;
+        }
       }
     }
   }
@@ -209,7 +215,7 @@ nav{
     font-size: 14px;
 }
 /* ========================================================= Shop ===*/
-.apparel{
+.products{
   list-style: none;
   margin: 0;
   padding: 0;
@@ -225,6 +231,20 @@ nav{
       .price{
         display: block;
       }
+    }
+  }
+}
+.prints{
+  img{
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    margin: 0 0 0.5em;
+    -webkit-transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+    -moz-transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+    -ms-transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+    -o-transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+    transition: color .25s ease-in, background .25s ease-in, opacity .25s ease-in;
+    &:hover{
+      box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
     }
   }
 }
@@ -431,11 +451,13 @@ footer{
 /* ========================================================= Adapt ===*/
 @media all and (min-width: 40rem) {
     html,body{font-size: 1.125em;}
-    .column {
-        float: left;
-        margin: 0;
-        padding-left: 1rem;
-        padding-right: 1rem;
+    .container{
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+    .row{
+      margin-left: -1em;
+      margin-right: -1em;
     }
     .column.full { width: 100%; }
     .column.three-fourth { width: 75%; }

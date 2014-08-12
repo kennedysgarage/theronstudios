@@ -24,25 +24,25 @@ $(document).ready(function(){
 	// });
 
 	// Contact form
-	$("#btn-cta").click(function(e) {
-		e.preventDefault();
-		$("html,body").css("overflow","hidden");
-		$(".contact").fadeIn('slow');
-	});
-
-	$("#form .btn").click( function() {
-		$("html,body").css("overflow","auto");
-		$("#contact-success").fadeIn(100);
-		$(".cta").fadeOut('fast');
-		// $("#form").fadeOut(100);
-		$(".contact").fadeOut('slow');
-	});
-
-	$(".close").click(function(e) {
-		e.preventDefault();
-		$("html,body").css("overflow","auto");
-		$(".contact").fadeOut('slow');
-	});
+	// $("#btn-cta").click(function(e) {
+	// 	e.preventDefault();
+	// 	$("html,body").css("overflow","hidden");
+	// 	$(".contact").fadeIn('slow');
+	// });
+	//
+	// $("#form .btn").click( function() {
+	// 	$("html,body").css("overflow","auto");
+	// 	$("#contact-success").fadeIn(100);
+	// 	$(".cta").fadeOut('fast');
+	// 	// $("#form").fadeOut(100);
+	// 	$(".contact").fadeOut('slow');
+	// });
+	//
+	// $(".close").click(function(e) {
+	// 	e.preventDefault();
+	// 	$("html,body").css("overflow","auto");
+	// 	$(".contact").fadeOut('slow');
+	// });
 
 
 });
