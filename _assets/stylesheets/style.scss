@@ -14,7 +14,7 @@
 html, body{
     background-color: #dadedf;
     color: #373737;
-    font-family: 'ProximaNova','Helvetica','Avenir','Arial',sans-serif;
+    font-family: 'Effra Regular', sans-serif;
     font-size: 1em;
     font-weight: 400;
     line-height: 1.45;
@@ -28,6 +28,9 @@ html, body{
     background-color: #F2412F;
     background-color: #37383A;
     height: 4px;
+}
+.wrapper{
+  margin: 90px 0 0;
 }
 .container {
   margin: 0 auto;
@@ -47,6 +50,17 @@ section{
 }
 .column {
     width: 100%;
+}
+.hero{
+  img{
+    border-radius: 2px 2px 0 0;
+  }
+}
+.welcome{
+  border-radius: 0 0 2px 2px;
+  .row{
+    padding-top: 2em;
+  }
 }
 /* ========================================================= Landing Temp ===*/
 #landing-logo{
@@ -92,8 +106,13 @@ section{
 }
 /* ========================================================= Header ===*/
 header{
-    margin: 0 0 30px;
+    margin: 0;
     background-color: #252429;
+    padding: 0 1em;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 header h1{
     display: inline;
@@ -115,17 +134,31 @@ header .btn.btn-action{
 -- Nav --
 ------ */
 nav{
-    text-align: center;
+  font-size: 18px;
+  text-align: center;
+  ul{
+    float: right;
+    margin: 8px 0 0;
+    padding: 0;
+    li{
+      float: left;
+      margin: 0;
+      padding: 0;
+      a{
+        color: #eee;
+        display: block;
+        padding: 10px 21px 8px;
+      }
+    }
+  }
 }
-nav a{
-    padding: 6px 21px 4px;
-}
+
 /* ========================================================= Home ===*/
 /* -----------
 -- Services --
 ----------- */
 .services{
-    
+
 }
 .services h4{
     font-family: 'ProximaNova', sans-serif;
@@ -148,7 +181,7 @@ nav a{
 }
 /* ========================================================= About ===*/
 #about{
-    
+
 }
 /* ========================================================= EPK ===*/
 #epk{
@@ -174,6 +207,26 @@ nav a{
 .thumbnail span {
     color: #808087;
     font-size: 14px;
+}
+/* ========================================================= Shop ===*/
+.apparel{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  li{
+    margin: 0 0 2em;
+    text-align: center;
+    a{
+      color: #333;
+      .name{
+        display: block;
+        font-weight: 700;
+      }
+      .price{
+        display: block;
+      }
+    }
+  }
 }
 /* ========================================================= Contact ===*/
 #contact{
@@ -202,7 +255,7 @@ nav a{
     height: 55px;
 }
 #contact .testimonial{
-    
+
 }
 #contact .testimonial img{
     display: block;
@@ -243,6 +296,40 @@ nav a{
     vertical-align: middle;
 }
 /* ========================================================= Contact ===*/
+#article-list{
+  margin: 0;
+  padding: 0;
+  li{
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 1px 0 #fff;
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 1em 0;
+    &:last-child{
+      border-bottom: none;
+      box-shadow: none;
+      margin: 0;
+    }
+    img{
+      border-radius: 3px;
+      float: right;
+      margin: 0 0 0 20px;
+      max-width: 225px;
+    }
+    h2{
+      font-size: 33px;
+      line-height: 1.0;
+    }
+    p{
+      margin: 0;
+    }
+    a{
+      // color: #222;
+    }
+  }
+}
+/* ========================================================= Contact ===*/
 .contact{
     position: fixed;
     background-color: rgba(42,49,59,0.98);
@@ -270,6 +357,9 @@ nav a{
 /* ========================================================= Footer ===*/
 footer{
     background-color: #37383A;
+    .content{
+      padding: 4% 0;
+    }
 }
 .cta{
 
@@ -361,7 +451,7 @@ footer{
         float: right;
     }
     .hero-wrap{
-        margin: 60px auto 0;
+        // margin: 60px auto 0;
     }
     .select-styled select{
         padding: 12px 5px;

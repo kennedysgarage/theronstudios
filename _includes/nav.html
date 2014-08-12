@@ -1,10 +1,16 @@
 <header class="clearfix">
-<div class="container">
    <a href="/" class="logo">{% image theron.svg %}</a>
    <nav>
-   	<a href="/contact/" class="btn btn-action">Hire Us</a>
+     <ul>
+        {% for link in site.navigation %}
+          {% assign current = nil %}
+          {% if page.url == link.url or page.layout == link.layout %}
+              {% assign current = 'current' %}
+          {% endif %}
+          <li class="{{ current }}"><a href="{{ link.url }}">{{ link.text }}</a></li>
+        {% endfor %}
+      </ul>
    </nav>
-</div><!--/container-->
 </header>
 
 <div class="container">

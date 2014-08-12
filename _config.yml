@@ -18,5 +18,11 @@ assets:
   css_compressor: sass
 
 navigation:
-- text: Hire us
-  url: /contact/
+- text: About
+  url: /about/
+- text: Shop
+  url: /shop/
+- text: Blog
+  url: /blog/
+- text: Hire Us
+  url: /hire-us/
