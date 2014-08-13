@@ -20,6 +20,8 @@ assets:
 navigation:
 - text: About
   url: /about/
+- text: Work
+  url: /work/
 - text: Shop
   url: /shop/
 - text: Blog
