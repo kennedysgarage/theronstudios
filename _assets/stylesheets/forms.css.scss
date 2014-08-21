@@ -16,13 +16,13 @@ form p{
 
 }
 form label{
-    
+
 }
 form input[type=text], form input[type=email]{
     background-color: #fff;
     border: 1px solid #aaa;
     border-radius: 3px;
-    padding: 10px;
+    padding: 12px 10px 8px;
     margin: 0 10px 0 0;
     vertical-align: middle;
     width: 100%;
@@ -40,7 +40,7 @@ form textarea{
   background: url(asset_path('contact/select-down-arrow.png')) no-repeat right #fff;
   border: 1px solid #aaa;
   border-radius: 3px;
-  max-height: 48px;
+  max-height: 39px;
   float: left;
   margin: 0 10px 0 0;
   overflow: hidden;
@@ -62,7 +62,7 @@ form textarea{
   max-height: 40px;
   margin: 0;
   outline: none;
-  padding: 12px 5px;
+  padding: 6px 5px;
   width: 107%;
 }
 .select-styled select:focus{
@@ -84,11 +84,11 @@ form input[type=submit]{
    color: #555;
 }
 :-moz-placeholder {
-   color: #555;  
+   color: #555;
 }
 ::-moz-placeholder {
-   color: #555;  
+   color: #555;
 }
-:-ms-input-placeholder {  
-   color: #555;  
+:-ms-input-placeholder {
+   color: #555;
 }

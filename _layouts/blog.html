@@ -2,11 +2,13 @@
 {% include nav.html %}
 
 <div class="wrapper">
-  <div class="column three-fourth">
+
+
 <section>
+  <div class="container">
+
+  <div class="column three-fourth">
   <div class="content">
-  <div class="row">
-  <div class="column full">
 <ul id="article-list">
 
   {% for post in site.posts %}
@@ -22,15 +24,18 @@
   {% endfor %}
 
 </ul>
+
+</div><!--/content-->
+
 </div><!--col-->
 
-  </div><!--/row-->
-</div><!--/content-->
-</section>
-</div><!--col-->
 
 {% include sidebar.html %}
 
+</div><!--/container-->
+</section>
+
 </div><!--/wrapper-->
 
+{% include cta.html %}
 {% include footer.html %}

@@ -2,8 +2,10 @@
 {% include nav.html %}
 
 <div class="wrapper">
+  <section>
+    <div class="container">
   <div class="column three-fourth">
-<section>
+
   <div class="content">
   <div class="row">
   <div class="column full">
@@ -19,18 +21,22 @@
 					{% endcase %},
 				{{ page.date | date: "%Y" }}
 			</p>
-    <h2>{{ page.title }}</h2>
+    <h3>{{ page.title }}</h3>
     {{ content }}
   </article>
 </div><!--col-->
 
   </div><!--/row-->
 </div><!--/content-->
-</section>
+
 </div><!--col-->
 
 {% include sidebar.html %}
 
+</div><!--/container-->
+</section>
+
 </div><!--/wrapper-->
 
+{% include cta.html %}
 {% include footer.html %}

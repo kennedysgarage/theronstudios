@@ -1,36 +1,5 @@
 /* ========================================================= Fontface ===*/
 @font-face {
-    font-family: 'ProximaNova';
-    src: url(asset_path('proximanova/proximanova-regular-webfont.eot'));
-    src: url(asset_path('proximanova/proximanova-regular-webfont.eot?#iefix')) format('embedded-opentype'),
-         url(asset_path('proximanova/proximanova-regular-webfont.woff')) format('woff'),
-         url(asset_path('proximanova/proximanova-regular-webfont.ttf')) format('truetype'),
-         url(asset_path('proximanova/proximanova-regular-webfont.svg#proxima_nova_rgregular')) format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'ProximaNovaLight';
-    src: url(asset_path('proximanova/proximanova-light-webfont.eot'));
-    src: url(asset_path('proximanova/proximanova-light-webfont.eot?#iefix')) format('embedded-opentype'),
-         url(asset_path('proximanova/proximanova-light-webfont.woff')) format('woff'),
-         url(asset_path('proximanova/proximanova-light-webfont.ttf')) format('truetype'),
-         url(asset_path('proximanova/proximanova-light-webfont.svg#proxima_nova_ltregular')) format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'ProximaNovaBold';
-    src: url(asset_path('proximanova/proximanova-bold-webfont.eot'));
-    src: url(asset_path('proximanova/proximanova-bold-webfont.eot?#iefix')) format('embedded-opentype'),
-         url(asset_path('proximanova/proximanova-bold-webfont.woff')) format('woff'),
-         url(asset_path('proximanova/proximanova-bold-webfont.ttf')) format('truetype'),
-         url(asset_path('proximanova/proximanova-bold-webfont.svg#proxima_nova_rgbold')) format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'Effra Light';
     src: url(asset_path('effra/effra-light/effra-light.eot'));
     src: url(asset_path('effra/effra-light/effra-light.eot?#iefix')) format('embedded-opentype'),
@@ -67,6 +36,36 @@
          url(asset_path('effra/effra-heavy/effra-heavy.woff')) format('woff'),
          url(asset_path('effra/effra-heavy/effra-heavy.ttf')) format('truetype'),
          url(asset_path('effra/effra-heavy/effra-heavy.svg#1942_report1942_report')) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url(asset_path('proximanova/proximanova-regular-webfont.eot'));
+    src: url(asset_path('proximanova/proximanova-regular-webfont.eot?#iefix')) format('embedded-opentype'),
+         url(asset_path('proximanova/proximanova-regular-webfont.woff')) format('woff'),
+         url(asset_path('proximanova/proximanova-regular-webfont.ttf')) format('truetype'),
+         url(asset_path('proximanova/proximanova-regular-webfont.svg#proxima_nova_rgregular')) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaNovaLight';
+    src: url(asset_path('proximanova/proximanova-light-webfont.eot'));
+    src: url(asset_path('proximanova/proximanova-light-webfont.eot?#iefix')) format('embedded-opentype'),
+         url(asset_path('proximanova/proximanova-light-webfont.woff')) format('woff'),
+         url(asset_path('proximanova/proximanova-light-webfont.ttf')) format('truetype'),
+         url(asset_path('proximanova/proximanova-light-webfont.svg#proxima_nova_ltregular')) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ProximaNovaBold';
+    src: url(asset_path('proximanova/proximanova-bold-webfont.eot'));
+    src: url(asset_path('proximanova/proximanova-bold-webfont.eot?#iefix')) format('embedded-opentype'),
+         url(asset_path('proximanova/proximanova-bold-webfont.woff')) format('woff'),
+         url(asset_path('proximanova/proximanova-bold-webfont.ttf')) format('truetype'),
+         url(asset_path('proximanova/proximanova-bold-webfont.svg#proxima_nova_rgbold')) format('svg');
     font-weight: normal;
     font-style: normal;
 }

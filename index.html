@@ -1,39 +1,90 @@
 ---
 layout: default
 ---
+<div class="home">
+
+<section class="intro">
+  <div class="container">
+    <div class="content">
+      <div class="row">
+        <div class="column full">
+          <h1>Hello, Good Looking</h1>
+            <p>We are a creative studio specializing in ecommerce. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div><!--/column-->
+      </div><!--/row-->
+    </div><!--/content-->
+  </div><!--/container-->
+</section>
 
 <section>
-    {% image home/hero.png %}
+  <div class="container">
     <div class="content">
-    <div class="row">
-        <div class="column full">
-          <h2>Hello, Good Looking</h2>
-            <p>Founded in 2014, Theron Studios specializes in the design and development of top quality - hand crafted websites and apps. We have strategic partnerships with awarding winning designers, developers, and agencies. Our team collaborates alongside companies to develop a strategy that is tailor made to fit your goals.</p>
-        </div><!--/column-->
-        </div><!--/row-->
 
         <div class="row">
             <div class="column full">
-                <h2>Services</h2>
-                <p>Our team can take on any size project, from a micro site to an elaborate mobile app. We love what we do and we enjoy working with our clients.</p>
+                <h2><span>Our Work</span></h2>
             </div><!--/column-->
         </div><!--/row-->
-        <div class="row services">
-            <div class="column third">
-                {% image home/mobile.svg %}
-                <h4>Mobile</h4>
-                <p>iOS &amp; Android</p>
+
+        <div class="row samples">
+            <div class="column half">
+              <a href="/work/smedresmanlaw/">
+                {% image work/smedresmanlaw/hero.png %}
+                <h4>Smedresman Law</h4>
+                <p>Website redesign</p>
+              </a>
             </div><!--/column-->
-            <div class="column third">
-                {% image home/glass.svg %}
-                <h4>Wearables</h4>
-                <p>Google Glass &amp; Android Wear</p>
+            <div class="column half">
+              <a href="/work/galore/">
+                {% image work/galore/hero.png %}
+                <h4>Galore Magazine</h4>
+                <p>Website redesign</p>
+              </a>
             </div><!--/column-->
-            <div class="column third">
-                {% image home/web.svg %}
-                <h4>Web</h4>
-                <p>Interactive &amp; Responsive</p>
-            </div><!--/column-->
-        </div><!--/row-->
+          </div><!--/row-->
+</div><!--/content-->
+
+<div class="content">
+
+            <div class="row">
+                <div class="column full">
+                    <h2><span>Our Shop</span></h2>
+                </div><!--/column-->
+            </div><!--/row-->
+
+            <div class="row samples">
+                <div class="column fourth">
+                  <a href="/apparel/classic/">
+                    {% image shop/apparel/classic.png %}
+                    <h4>Classic</h4>
+                    <p>$40.00</p>
+                  </a>
+                </div><!--/column-->
+                <div class="column fourth">
+                  <a href="/apparel/number-41/">
+                    {% image shop/apparel/number-41.png %}
+                    <h4>N&deg; 41</h4>
+                    <p>$40.00</p>
+                  </a>
+                </div><!--/column-->
+                <div class="column fourth">
+                  <a href="/apparel/surf-theron/">
+                    {% image shop/apparel/surf-theron.png %}
+                    <h4>Surf Theron</h4>
+                    <p>$40.00</p>
+                  </a>
+                </div><!--/column-->
+                <div class="column fourth">
+                  <a href="/apparel/black-flag/">
+                    {% image shop/apparel/black-flag.png %}
+                    <h4>Black Flag</h4>
+                    <p>$40.00</p>
+                  </a>
+                </div><!--/column-->
+            </div><!--/row-->
+
     </div><!--/content-->
+  </div><!--/container-->
 </section>
+
+</div><!--/home-->

@@ -30,13 +30,13 @@ $(document).ready(function(){
 	// 	$(".contact").fadeIn('slow');
 	// });
 	//
-	// $("#form .btn").click( function() {
-	// 	$("html,body").css("overflow","auto");
-	// 	$("#contact-success").fadeIn(100);
-	// 	$(".cta").fadeOut('fast');
-	// 	// $("#form").fadeOut(100);
-	// 	$(".contact").fadeOut('slow');
-	// });
+	$("#form .btn").click( function() {
+		$("html,body").css("overflow","auto");
+		$("#contact-success").fadeIn(100);
+		$(".cta").fadeOut('fast');
+		// $("#form").fadeOut(100);
+		$(".contact").fadeOut('slow');
+	});
 	//
 	// $(".close").click(function(e) {
 	// 	e.preventDefault();

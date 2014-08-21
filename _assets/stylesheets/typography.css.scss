@@ -1,45 +1,47 @@
 /* ========================================================= Typography ===*/
 h1, h2, h3, h4 {
-  color: #25272B;
+  color: #333B47;
   font-family: 'Effra Medium', sans-serif;
   margin: 1.414em 0 0.5em;
   font-weight: normal;
   line-height: 1.2;
 }
 h1{
-  font-size: 3.998em;
+  font-size: 2.441em;
   margin-top: 0;
 }
 h2{
-  margin: 1em 0 0.4em;
+  font-family: 'Effra Light', sans-serif;
+  border-bottom: 2px solid #CACBCD;
+  font-size: 1.563em;
   margin: 0 0 0.4em;
-  border-bottom: 3px solid $grey-dk;
-  font-size: 2.827em;
-    font-size: 1.6em;
+  margin: 0 0 1em;
+  text-transform: uppercase;
   word-spacing: 8px;
+  span{
+    border-bottom: 2px solid #777B81;
+    padding-right: 5px;
+  }
 }
 h3{
   display: block;
-  /*font-family: 'Libre Baskerville', serif;*/
-  font-size: 1.3em;
+  font-size: 1.953em;
 
   margin: 35px 0 15px;
 }
 h4{
-  /*font-family: 'Libre Baskerville', serif;*/
-  font-size: 1.414em;
+  font-size: 1.25em;
   margin: 5px 0;
 }
 p{
   color: #656565;
-  color: #37383A;
-  margin: 0 0 1.3em;
+  margin-bottom: 1.3em;
 }
 strong{
   color: #000;
 }
 small, .font_small{
-  font-size: 0.707em;
+  font-size: 0.8em;;
 }
 ul{
   margin: 0 0 20px;
