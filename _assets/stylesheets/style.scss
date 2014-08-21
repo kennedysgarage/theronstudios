@@ -353,13 +353,12 @@ nav{
     padding: 0 6px 0 0;
     vertical-align: middle;
 }
-/* ========================================================= Contact ===*/
+/* ========================================================= Blog ===*/
 #article-list{
   margin: 0;
   padding: 0;
   li{
-    border-bottom: 1px solid #ddd;
-    box-shadow: 0 1px 0 #fff;
+    border-bottom: 1px solid #D9DBDE;
     list-style: none;
     margin: 0;
     overflow: hidden;
@@ -375,16 +374,32 @@ nav{
       margin: 0 0 0 20px;
       max-width: 225px;
     }
-    h2{
+    h3{
       font-size: 33px;
-      line-height: 1.0;
+      line-height: 1;
+      margin: 0 0 5px;
     }
-    p{
+    .byline{
+      color: #9D9FA1;
+      line-height: 1;
       margin: 0;
+      text-transform: uppercase;
     }
     a{
       // color: #222;
     }
+  }
+}
+/* ========================================================= Post ===*/
+#post{
+  h2{
+    margin-top: 0;
+  }
+  .byline{
+    color: #9D9FA1;
+    line-height: 1;
+    margin: 0;
+    text-transform: uppercase;
   }
 }
 /* ========================================================= Contact ===*/
@@ -420,7 +435,7 @@ footer{
     }
 }
 .cta{
-  border-top: 1px solid #dadddf;
+  border-top: 1px solid #D9DBDE;
 }
 .cta h4{
     display: inline-block;

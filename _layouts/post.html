@@ -2,7 +2,7 @@
 {% include nav.html %}
 
 <div class="wrapper">
-  <section>
+  <section id="post">
     <div class="container">
   <div class="column three-fourth">
 
@@ -21,7 +21,7 @@
 					{% endcase %},
 				{{ page.date | date: "%Y" }}
 			</p>
-    <h3>{{ page.title }}</h3>
+    <h2><span>{{ page.title }}</span></h2>
     {{ content }}
   </article>
 </div><!--col-->
