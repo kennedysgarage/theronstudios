@@ -39,13 +39,19 @@ section{
     // background-color: #fff;
     // border-radius: 2px;
     // margin: 0 0 5%;
-    background-color: #F2F5F7;
-    padding: 6em 0 0;
+    background-color: #f0f0f0;
+    padding: 5em 0 0;
 }
 .content{
     padding: 2em 2em 0.5em;
     padding: 1em 2em;
     padding: 0 2em 6em;
+}
+.page{
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 3em 2em 3em;
+  margin-bottom: 3em;
 }
 // .row{
 //     padding: 1rem 0;
@@ -225,7 +231,20 @@ nav{
 }
 /* ========================================================= About ===*/
 #about{
-
+  .skills{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li{
+      margin: 0;
+      padding: 0;
+      i{
+        font-size: 16px;
+        margin-right: 5px;
+        vertical-align: middle;
+      }
+    }
+  }
 }
 /* ========================================================= EPK ===*/
 #epk{
@@ -362,11 +381,15 @@ nav{
     list-style: none;
     margin: 0;
     overflow: hidden;
-    padding: 1em 0;
+    padding: 2em 0;
+    &:first-child{
+      padding-top: 0;
+    }
     &:last-child{
       border-bottom: none;
       box-shadow: none;
       margin: 0;
+      padding-bottom: 0;
     }
     img{
       border-radius: 3px;
@@ -375,7 +398,6 @@ nav{
       max-width: 225px;
     }
     h3{
-      font-size: 33px;
       line-height: 1;
       margin: 0 0 5px;
       a{
@@ -384,9 +406,13 @@ nav{
     }
     .byline{
       color: #9D9FA1;
+      font-size: .9em;
       line-height: 1;
       margin: 0;
       text-transform: uppercase;
+    }
+    p{
+      margin-bottom: 0;
     }
     a{
       // color: #222;
@@ -395,11 +421,12 @@ nav{
 }
 /* ========================================================= Post ===*/
 #post{
-  h2{
+  h3{
     margin-top: 0;
   }
   .byline{
     color: #9D9FA1;
+    font-size: .9em;
     line-height: 1;
     margin: 0;
     text-transform: uppercase;

@@ -6,7 +6,7 @@
     <div class="container">
   <div class="column three-fourth">
 
-  <div class="content">
+  <div class="page">
   <div class="row">
   <div class="column full">
   <article>
@@ -20,14 +20,15 @@
 					{% else %}{{ d }}th
 					{% endcase %},
 				{{ page.date | date: "%Y" }}
+        // {{ page.author }}
 			</p>
-    <h2><span>{{ page.title }}</span></h2>
+    <h1>{{ page.title }}</h1>
     {{ content }}
   </article>
 </div><!--col-->
 
   </div><!--/row-->
-</div><!--/content-->
+</div><!--/page-->
 
 </div><!--col-->
 
