@@ -190,19 +190,20 @@ nav{
 }
 /* ========================================================= Home ===*/
 .home{
-  .samples{
+}
+.tumbnails{
+  img{
+    margin-bottom: 0.5em;
+  }
+  h4{
+    margin: 0;
     text-align: center;
-    img{
-      margin-bottom: 0.5em;
-    }
-    h4{
-      margin: 0;
-    }
-    p{
-      color: #777B81;
-      font-family: 'Effra Light', sans-serif;
-      margin: 0;
-    }
+  }
+  p{
+    color: #777B81;
+    font-family: 'Effra Light', sans-serif;
+    margin: 0;
+    text-align: center;
   }
 }
 /* -----------
