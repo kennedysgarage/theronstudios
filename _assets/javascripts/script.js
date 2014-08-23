@@ -43,6 +43,11 @@ $(document).ready(function(){
 	// 	$("html,body").css("overflow","auto");
 	// 	$(".contact").fadeOut('slow');
 	// });
-
+	
+	// Navigation for mobile
+	$('.menu').click(function(e){
+		e.preventDefault();
+		$('nav').slideToggle();
+	});
 
 });
