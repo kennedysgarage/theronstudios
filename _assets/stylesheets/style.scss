@@ -631,7 +631,8 @@ footer{
         font-size: 0.707em;
     }
     .select-styled select{
-        max-height: 48px;
+        // max-height: 48px;
+        height: 48px;
     }
     #form .note{
         float: right;
