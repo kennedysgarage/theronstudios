@@ -3,10 +3,10 @@ layout: post
 permalink: /blog/fashionable-startup-swag/
 title: Fashionable Startup Swag
 author: Kennedy
-excerpt: Typically, most startups go the t-shirt route for their swag, we decided to go against the status quo this time.
+excerpt: Typically, most startups go the t-shirt route for their swag. We decided to go against the status quo this time.
 ---
 
-<p>Typically, most startups go the t-shirt route for their swag, we decided to go against the status quo this time.</p>
+<p>Typically, most startups go the t-shirt route for their swag. We decided to go against the status quo this time.</p>
 <p>Our design co-founder, Kennedy, has always dreamt of creating something a little more fashionable. With the strong branding of Theron and a great repeatable pattern, this was his chance to make it happen.</p>
 
 <h3>Kennedy, design co-founder</h3>
