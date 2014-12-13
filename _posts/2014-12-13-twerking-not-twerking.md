@@ -18,7 +18,7 @@ excerpt: We want to give a special thanks to Working Not Working. If it wasn't f
 <p>We want to give a special thanks to Working Not Working. If it wasn't for our latest project that came through their site Theron Studios may very well have died. WNW literally saved our asses and our business, and for that we will be forever grateful. You can find Kennedy's profile on the site at <a href="http://workingnotworking.com/kennedysgarage">http://workingnotworking.com/kennedysgarage</a>.</p>
 
 <figure>
-<a href="">{% image blog/twerking-not-twerking/eyeseeyou.jpg %}</a>
+<a href="">{% image blog/twerking-not-twerking/eyeseeyou.png %}</a>
 <figcaption>Trying to stay focused.</figcaption>
 </figure>
 
