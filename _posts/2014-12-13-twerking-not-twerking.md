@@ -33,7 +33,7 @@ excerpt: We want to give a special thanks to Working Not Working. If it wasn't f
 </figure>
 
 <figure>
-<a href="">{% image blog/twerking-not-twerking/heyyou.jpg %}</a>
+<a href="">{% image blog/twerking-not-twerking/heyyou.png %}</a>
 </figure>
 
 <blockquote>
