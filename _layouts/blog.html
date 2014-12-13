@@ -2,39 +2,35 @@
 {% include nav.html %}
 
 <div class="wrapper">
+  <section>
+    <div class="container">
+      <div class="content">
+        <div class="row">
+          <div class="column full">
 
+            <h2><span>Blog</span></h2>
 
-<section>
-  <div class="container">
+            <div class="page">
+              <ul id="article-list">
+                {% for post in site.posts %}
+                <li>
+                  <div class="row">
+                    <div class="column full">
+                      <p class="byline">{{ post.date | date: "%B %d, %Y" }}</p>
+                      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                      <p>{{ post.excerpt }}</p>
+                    </div><!--/col-->
+                  </div><!--/row-->
+                </li>
+                {% endfor %}
+              </ul>
+            </div><!--/page-->
 
-  <div class="column three-fourth">
-  <div class="page">
-<ul id="article-list">
-
-  {% for post in site.posts %}
-  <li>
-    <div class="row">
-      <div class="column full">
-        <p class="byline">{{ post.date | date: "%B %d, %Y" }}</p>
-        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-        <p>{{ post.excerpt }}</p>
-      </div><!--/col-->
-    </div><!--/row-->
-  </li>
-  {% endfor %}
-
-</ul>
-
-</div><!--/page-->
-
-</div><!--col-->
-
-
-{% include sidebar.html %}
-
-</div><!--/container-->
-</section>
-
+          </div><!--col-->
+        </div><!--row-->
+      </div><!--/content-->
+    </div><!--/container-->
+  </section>
 </div><!--/wrapper-->
 
 {% include cta.html %}

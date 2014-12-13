@@ -51,7 +51,6 @@ section{
   background-color: #fff;
   border-radius: 3px;
   padding: 3em 2em 3em;
-  margin-bottom: 3em;
 }
 // .row{
 //     padding: 1rem 0;
@@ -432,6 +431,13 @@ nav{
     line-height: 1;
     margin: 0;
     text-transform: uppercase;
+  }
+  figure{
+    text-align: center;
+    img{
+      display: block;
+      margin: 0 auto;
+    }
   }
 }
 /* ========================================================= Contact ===*/

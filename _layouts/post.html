@@ -4,39 +4,36 @@
 <div class="wrapper">
   <section id="post">
     <div class="container">
-  <div class="column three-fourth">
+      <div class="content">
+        <div class="row">
+          <div class="column full">
 
-  <div class="page">
-  <div class="row">
-  <div class="column full">
-  <article>
-    <p class="byline">
-				{% assign d = page.date | date: "%d" | plus:'0' %}
-				{{ page.date | date: "%B" }}
-				{% case d %}
-					{% when 1 or 21 or 31 %}{{ d }}st
-					{% when 2 or 22 %}{{ d }}nd
-					{% when 3 or 23 %}{{ d }}rd
-					{% else %}{{ d }}th
-					{% endcase %},
-				{{ page.date | date: "%Y" }}
-        // {{ page.author }}
-			</p>
-    <h1>{{ page.title }}</h1>
-    {{ content }}
-  </article>
-</div><!--col-->
+            <div class="page">
 
-  </div><!--/row-->
-</div><!--/page-->
+              <article>
+                <p class="byline">
+            				{% assign d = page.date | date: "%d" | plus:'0' %}
+            				{{ page.date | date: "%B" }}
+            				{% case d %}
+            					{% when 1 or 21 or 31 %}{{ d }}st
+            					{% when 2 or 22 %}{{ d }}nd
+            					{% when 3 or 23 %}{{ d }}rd
+            					{% else %}{{ d }}th
+            					{% endcase %},
+            				{{ page.date | date: "%Y" }}
+                    // {{ page.author }}
+            			</p>
+                <h1>{{ page.title }}</h1>
+                {{ content }}
+              </article>
 
-</div><!--col-->
+            </div><!--/page-->
 
-{% include sidebar.html %}
-
-</div><!--/container-->
-</section>
-
+          </div><!--col-->
+        </div><!--row-->
+      </div><!--/content-->
+    </div><!--/container-->
+  </section>
 </div><!--/wrapper-->
 
 {% include cta.html %}
