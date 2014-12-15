@@ -12,7 +12,7 @@ excerpt: Our goal is to document the way we build iOS app and we want to share i
 <ol>
   <li>Our process</li>
   <li>Working with clients</li>
-  <li>Our design setup for iOS apps</li>
+  <li><a href="/blog/our-design-setup-for-ios-apps/">Our design setup for iOS apps</a></li>
   <li>Handing off iOS assets to our developers</li>
   <li>Interactive prototypes</li>
   <li>Launching an iOS app</li>
