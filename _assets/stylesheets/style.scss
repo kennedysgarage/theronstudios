@@ -36,16 +36,8 @@ html, body{
 }
 
 section{
-    // background-color: #fff;
-    // border-radius: 2px;
-    // margin: 0 0 5%;
     background-color: #f0f0f0;
-    padding: 5em 0 0;
-}
-.content{
-    padding: 2em 2em 0.5em;
-    padding: 1em 2em;
-    padding: 0 2em 6em;
+    padding: 1em 0 0;
 }
 .page{
   background-color: #fff;
@@ -474,6 +466,8 @@ footer{
 }
 .cta{
   border-top: 1px solid #D9DBDE;
+  padding: 2em;
+  text-align: center;
 }
 .cta h4{
     display: inline-block;
@@ -618,6 +612,10 @@ footer{
         padding: 6px 5px;
         max-height: 41px;
     }
+    .cta{
+      padding: 6em 0;
+      text-align: left;
+    }
     .cta .btn{
         display: inline-block;
         float: right;
@@ -625,6 +623,12 @@ footer{
     }
 }
 @media all and (min-width: 960px) {
+  section{
+    padding: 5em 0 0;
+  }
+  .content{
+    padding: 0 2em 6em;
+  }
     header h1{
       display: inline;
     }
@@ -641,9 +645,16 @@ footer{
         // max-height: 48px;
         height: 48px;
     }
+    .cta{
+      padding: 6em 0 0;
+    }
     #form .note{
         float: right;
         margin: 18px 0 0;
         text-align: right;
+    }
+    #post h1, #post h2, #post h3, #post h4, #post p, #post ul, #post ol, #post .byline{
+      margin-right: 10%;
+      margin-left: 10%;
     }
 }
