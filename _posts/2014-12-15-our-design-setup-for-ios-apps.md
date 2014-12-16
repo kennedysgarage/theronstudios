@@ -73,4 +73,7 @@ excerpt: We are starting to built an app that will work on iPhone 6 and 6 Plus. 
   <li><a href="http://www.paintcodeapp.com/news/iphone-6-screens-demystified">iPhone 6 Screens Demystified</a></li>
   <li><a href="http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions">The Ultimate Guide To iPhone Resolutions</a></li>
   <li><a href="http://bjango.com/articles/appdesignworkflow/">Bjango - My app design workflow</a></li>
+  <li><a href="http://ivomynttinen.com/blog/the-ios-7-design-cheat-sheet/">The iOS Design Cheat Sheet</a></li>
+  <li><a href="http://click-labs.com/ios-8-design-cheat-sheet-and-free-iphone6plus-gui-psd/">iOS 8 Design Cheat Sheet for iPhone 6 and iPhone 6 Plus</a></li>
+  <li><a href="http://taybenlor.com/2013/05/21/designing-for-ios.html">Starter's Guide to iOS Design</a></li>
 </ul>
