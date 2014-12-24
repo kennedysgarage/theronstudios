@@ -3,12 +3,12 @@ layout: post
 permalink: /blog/our-design-setup-for-ios-apps/
 title: Our design setup for iOS apps
 author: Kennedy
-excerpt: We are starting to built an app that will work on iPhone 6 and 6 Plus. As these have new sizes I reevaluated our design workflow.
+excerpt: We are starting to build an app that will work on iPhone 6 and 6 Plus. As these have new sizes I reevaluated our design workflow.
 ---
 
 <p>Our goal is to document <a href="/blog/our-workflow-for-ios-apps/">our workflow for iOS apps</a>. <mark>Part 1 is to have a better understanding of where we should start when building iOS apps.</mark></p>
 
-<p>We are starting to built an app that will work on iPhone 6 and 6 Plus. As these have new sizes I reevaluated our design workflow. I quickly came to the conclusion that not much has changed for us. The major difference is the dimension of our mock's width and height. We are no longer using the 5S as that measurement, but rather the 6.</p>
+<p>We are starting to build an app that will work on iPhone 6 and 6 Plus. As these have new sizes I reevaluated our design workflow. I quickly came to the conclusion that not much has changed for us. The major difference is the dimension of our mock's width and height. We are no longer using the 5S as that measurement, but rather the 6.</p>
 
 <h3>Screen sizes</h3>
 <p>To wrap my head around the new sizes I wrote out all the math first. This also helped with trying to figure out the the screens all related to each other.</p>
