@@ -3,10 +3,9 @@ permalink: pretty
 author: Theron Studios
 email: hello@theronstudios.com
 url: http://theronstudios.com
+markdown: kramdown
 
 exclude: ["CNAME","editorconfig.txt","Gemfile","Gemfile.lock","README.md", "RAKEFILE"]
-
-markdown: kramdown
 
 assets:
   dirname: assets

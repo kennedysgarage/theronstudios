@@ -4,6 +4,7 @@ permalink: /blog/our-design-setup-for-ios-apps/
 title: Our design setup for iOS apps
 author: Kennedy
 excerpt: We are starting to build an app that will work on iPhone 6 and 6 Plus. As these have new sizes I reevaluated our design workflow.
+comments: true
 ---
 
 <p>Our goal is to document <a href="/blog/our-workflow-for-ios-apps/">our workflow for iOS apps</a>. <mark>Part 1 is to have a better understanding of where we should start when building iOS apps.</mark></p>

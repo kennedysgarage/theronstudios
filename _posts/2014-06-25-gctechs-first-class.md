@@ -4,6 +4,7 @@ permalink: /blog/gctechs-first-class/
 title: GCTech’s First Class
 author: Brian
 excerpt: Theron Studios is proud to be a part of the First Class of startups to embark on this amazing journey. Theron Studios was one of the lucky 18 companies selected by Matt Harrigan and Charles Bonello.
+comments: false
 ---
 
 <p><a href="http://theronstudios.com/">Theron Studios</a> is proud to be a part of the First Class of startups to embark on this amazing journey. Theron Studios was one of the lucky 18 companies selected by <a href="https://twitter.com/mbharrigan">Matt Harrigan</a> and <a href="https://twitter.com/CVBonello">Charles Bonello</a>. Approximately 500 NYC startups applied to utilize <a href="http://www.grandcentraltech.com/">Grand Central Tech</a>'s accelerator program which features "0% equity &amp; $0 rent" for a year.</p>

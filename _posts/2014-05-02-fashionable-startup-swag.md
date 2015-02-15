@@ -4,6 +4,7 @@ permalink: /blog/fashionable-startup-swag/
 title: Fashionable Startup Swag
 author: Kennedy
 excerpt: Typically, most startups go the t-shirt route for their swag. We decided to go against the status quo this time.
+comments: false
 ---
 
 <p>Typically, most startups go the t-shirt route for their swag. We decided to go against the status quo this time.</p>

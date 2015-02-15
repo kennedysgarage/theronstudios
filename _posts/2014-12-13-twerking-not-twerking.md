@@ -4,6 +4,7 @@ permalink: /blog/twerking-not-twerking/
 title: Twerking Not Twerking
 author: Brian
 excerpt: We want to give a special thanks to Working Not Working. If it wasn't for our latest project that came through their site Theron Studios may very well have died.
+comments: false
 ---
 
 <figure>
