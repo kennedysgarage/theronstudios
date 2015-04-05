@@ -25,7 +25,7 @@ comments: true
 @3x (1125x2001) - Not applicable</p>
 
 <h4>6 Plus</h4>
-<p>@1x (424X736) - Reduce to this size for the base<br/>
+<p>@1x (414X736) - Reduce to this size for the base<br/>
 @2x (818x1472) - Irrelevant<br/>
 @3x (1242x2208) - Default</p>
 
