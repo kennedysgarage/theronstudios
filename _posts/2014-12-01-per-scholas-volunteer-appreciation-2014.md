@@ -8,7 +8,7 @@ comments: false
 ---
 
 <figure>
-  <a href="">{% image blog/per-scholas-volunteer-appreciation-2014/photo.jpg %}</a>
+  <a href="">{% image blog/per-scholas-volunteer-appreciation-2014/kennedyandbrian.jpg %}</a>
   <figcaption>Kennedy and Brian were taken off guard but super excited to be there. Photo captured by Ken Moore Photo.</figcaption>
 </figure>
 
