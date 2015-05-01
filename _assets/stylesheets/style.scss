@@ -15,8 +15,12 @@
 html, body{
     background-color: #F2F5F7;
     background-color: #22252D;
+    background-color: #f0f0f0;
+    background-color: #fff;
+    background-color: #F8F8F8;
+
     color: #373737;
-    font-family: 'Effra Regular', sans-serif;
+    font-family: 'ProximaNova', sans-serif;
     font-size: 1em;
     font-weight: 400;
     line-height: 1.45;
@@ -37,6 +41,8 @@ html, body{
 
 section{
     background-color: #f0f0f0;
+    background-color: #fff;
+    background-color: #f8f8f8;
     padding: 1em 0 0;
 }
 .page{
@@ -105,11 +111,14 @@ section{
 }
 /* ========================================================= Header ===*/
 header{
-    margin: 0;
-    background-color: #22252D;
-    box-shadow: 0 1px 2px rgba(34,37,45,0.5);
-    padding: 1em;
-    position: relative;
+  background-color: #252429;
+  background-color: #151718;
+  padding: 20px 0;
+  margin: 0;
+  // border-bottom: 1px solid #D9DBDE;
+  .content{
+    padding-bottom: 0;
+  }
 }
 header h1{
     display: inline-block;
@@ -133,18 +142,19 @@ nav{
   background-color: #1FBC9A;
   display: none;
   width: 100%;
+
   ul{
     li{
       border-bottom: 1px solid rgba(0,0,0,0.1);
       a{
-        color: #ddd;
+        color: #eee;
         display: block;
         padding: 15px;
-        font-family: 'Effra Medium', sans-serif;
+        font-family: 'ProximaNovaLight', sans-serif;
         text-align: center;
         text-transform: uppercase;
         &:hover{
-          color: #fff;
+          color: #ddd;
         }
         &:last-child{
           border: none;
@@ -163,18 +173,21 @@ nav{
 -- Intro --
 -------- */
 .intro{
-  background-color: #fff;
-  // padding: 80px 0;
+  background-color: #f8f8f8;
+  background-color: #252429;
+  background-color: #151718;
+  // background-image: url(asset_path('pattern.jpg'));
+  // background-repeat: repeat;
   h1{
-    font-family: 'Effra Regular', sans-serif;
-    font-size: 32px;
-    text-align: center;
+    font-family: 'ProximaNovaBold', sans-serif;
+    font-size: 40px;
+    margin: 0;
+    color: #fff;
   }
   p{
-    font-size: 22px;
-    margin: 0 auto;
-    text-align: center;
-    max-width: 720px;
+    font-size: 18px;
+    max-width: 500px;
+    margin: 0;
   }
 }
 /* ========================================================= Home ===*/
@@ -460,11 +473,14 @@ nav{
 /* ========================================================= Footer ===*/
 footer{
     // background-color: #37383A;
+    background-color: #22252D;
     .content{
       padding: 4% 0;
     }
 }
 .cta{
+  background-color: #fff;
+  background-color: #f0f0f0;
   border-top: 1px solid #D9DBDE;
   padding: 2em;
   text-align: center;
@@ -549,14 +565,11 @@ footer{
     .column.third { width: 33.3%; }
     .column.fourth { width: 25%; }
     .column.flow-opposite { float: right; }
-    .wrapper{
-      margin: 69px 0 0;
-    }
     .logo{
         float: left;
     }
     .logo{
-        padding: 23px 0;
+        padding: 17px 0;
     }
     /* ------
     -- Nav --
@@ -576,28 +589,23 @@ footer{
           margin: 0;
           padding: 0;
           &.current a{
-            color: #fff;
+            color: #B1B1B1;
           }
           a{
-            color: #5F5C69;
+            color: #555;
             display: block;
-            font-family: 'Effra Heavy';
-            padding: 10px 21px 8px;
+            font-family: 'ProximaNovaBold';
+            padding: 6px 0 8px 20px;
             text-transform: uppercase;
             &:hover{
-              color: #fff;
+              color: #999;
             }
           }
         }
       }
     }
     header{
-      padding: 0 1em;
-      position: fixed;
-      top: 0;
-      right: 0;
-      left: 0;
-      z-index: 1941;
+
     h1{
       display: inline-block;
       a{
@@ -656,6 +664,10 @@ footer{
     #post h1, #post h2, #post h3, #post h4, #post p, #post ul, #post ol, #post .byline{
       margin-right: 10%;
       margin-left: 10%;
+    }
+    #post ul li ul{
+      margin-right: 0;
+      margin-left: 0;
     }
     #post ol ul{
       margin-right: 0;

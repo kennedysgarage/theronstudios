@@ -25,7 +25,5 @@ navigation:
   url: /work/
 - text: Blog
   url: /blog/
-- text: Shop
-  url: /shop/
 - text: Contact
   url: /contact/
