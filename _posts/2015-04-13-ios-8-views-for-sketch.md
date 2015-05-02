@@ -27,7 +27,7 @@ comments: false
 
 <p>Hopefully you get as much out of it as we have. We are releasing this under Creative Commons <a href="http://creativecommons.org/licenses/by-nd/4.0/">Attribution-NoDerivatives 4.0 International</a>. If you find any mistakes or want to contribute, please reach out to us via email or Twitter. Feel free to sign up for our newsletter to receive updates about this and other relevant news.</p>
 
-<p class="center"><a href="/download/iphone-mocks-for-sketch-v001.zip" class="btn btn-action" onClick="_gaq.push(['_trackEvent', 'Download', 'Sketch', '/download/iphone-mocks-for-sketch-v001.zip']);>Download Now</a></p>
+<p class="center"><a href="/download/iphone-mocks-for-sketch-v001.zip" class="btn btn-action" onClick="_gaq.push(['_trackEvent', 'Download', 'Sketch', '/download/iphone-mocks-for-sketch-v001.zip']);">Download Now</a></p>
 
 <p class="note">We want to make a quick note about where the pieces came from. For the most part they were hand built by us. Along the way we have included items but forgot their source, such as the Touch ID icon. We are not trying to hide anything and we will gladly give credit where credit is due.</p>
 
