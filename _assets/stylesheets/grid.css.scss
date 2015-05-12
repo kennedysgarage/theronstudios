@@ -5,6 +5,9 @@
   max-width: 60em;
   max-width: 64em;
 }
+.row{
+  margin: 0 0 2em;
+}
 .row:before, .row:after{content: ""; display: table;}
 .row:after{clear: both;}
 .column{
