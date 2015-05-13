@@ -11,7 +11,7 @@ comments: false
 
 <h3>Table of Contents</h3>
 <ol>
-  <li>Our process</li>
+  <li><a href="/blog/our-process-for-creating-mobile-apps/">Our process for creating mobile apps</a></li>
   <li>Working with clients</li>
   <li><a href="/blog/our-design-setup-for-ios-apps/">Our design setup for iOS apps</a></li>
   <li>Our design setup for Android apps</li>
