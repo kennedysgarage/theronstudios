@@ -7,7 +7,7 @@ excerpt: Our goal is to document the way we build iOS app and we want to share i
 comments: false
 ---
 
-<p>Our goal is to document the way we build iOS app and we want to share it with you. This is very much a work in progress and it will be updating and changing as we go.</p>
+<p>Our goal is to document the way we build mobile app and we want to share it with you. This is very much a work in progress and it will be updating and changing as we go.</p>
 
 <h3>Table of Contents</h3>
 <ol>
