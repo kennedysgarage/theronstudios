@@ -14,7 +14,9 @@ comments: false
   <li>Our process</li>
   <li>Working with clients</li>
   <li><a href="/blog/our-design-setup-for-ios-apps/">Our design setup for iOS apps</a></li>
-  <li>Handing off iOS assets to our developers</li>
+  <li>Our design setup for Android apps</li>
+  <li>Handing off mobile assets to developers</li>
   <li>Interactive prototypes</li>
   <li>Launching an iOS app</li>
+  <li>Launching an Android app</li>
 </ol>
