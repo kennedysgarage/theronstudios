@@ -249,6 +249,34 @@ nav{
     }
   }
 }
+/* ========================================================= Work ===*/
+.project-intro{
+  padding: 50px 0 0;
+  img{
+    border-radius: 10px;
+    width: 60px;
+    vertical-align: baseline;
+    margin: 0 10px 0 0;
+  }
+  h1{
+    font-family: 'ProximaNovaLight', sans-serif;
+    margin-bottom: 10px;
+    font-size: 88px;
+    text-transform: uppercase;
+  }
+  p{
+    font-size: 20px;
+  }
+}
+#gigato{
+  h3{
+    margin-top: 0;
+  }
+  iframe{
+    display: block;
+    margin: 0 auto;
+  }
+}
 /* ========================================================= Shop ===*/
 .products{
   list-style: none;
