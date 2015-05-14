@@ -21,6 +21,8 @@ assets:
 navigation:
 - text: About
   url: /about/
+- text: Process
+  url: /process/
 - text: Work
   url: /work/
 - text: Blog
