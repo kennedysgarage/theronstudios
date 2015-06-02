@@ -62,6 +62,7 @@ section{
 header{
   background-color: #252429;
   background-color: #151718;
+  background-color: #e9424c;
   padding: 20px 0;
   margin: 0;
   // border-bottom: 1px solid #D9DBDE;
@@ -91,7 +92,7 @@ header .btn.btn-action{
 -- Navigation --
 ------------- */
 nav{
-  background-color: #1FBC9A;
+  background-color: #e9424c;
   display: none;
   width: 100%;
   ul{
@@ -127,6 +128,7 @@ nav{
   background-color: #f8f8f8;
   background-color: #252429;
   background-color: #151718;
+  background-color: #e9424c;
   // background-image: url(asset_path('pattern.jpg'));
   // background-repeat: repeat;
   h1{
@@ -134,8 +136,10 @@ nav{
     font-size: 40px;
     margin: 0;
     color: #fff;
+    color: rgba(255,255,255,0.9);
   }
   p{
+    color: rgba(255,255,255,0.5);
     font-size: 18px;
     max-width: 500px;
   }
@@ -613,15 +617,17 @@ footer{
           padding: 0;
           &.current a{
             color: #B1B1B1;
+            color: #ffffff;
           }
           a{
             color: #555;
+            color: rgba(33,36,42,0.5);
             display: block;
             font-family: 'ProximaNovaBold';
             padding: 6px 0 8px 20px;
             text-transform: uppercase;
             &:hover{
-              color: #999;
+              color: #fff;
             }
           }
         }
